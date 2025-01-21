@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "CSES Number Display",
+  "version": "1.0",
+  "description": "Shows problem numbers on CSES.fi",
+  "icons": {
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://cses.fi/*"],
+      "js": ["content.js"]
+    }
+  ]
+} 
