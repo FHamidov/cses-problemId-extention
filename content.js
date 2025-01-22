@@ -1,4 +1,4 @@
-if (window.location.href.includes('cses.fi/problemset')) {
+if (window.location.href === 'https://cses.fi/problemset/list/') {
     const problemLinks = document.querySelectorAll('a[href*="/problemset/task/"]');
     
     const solvedProblems = document.querySelectorAll('.task-score.icon.full');
