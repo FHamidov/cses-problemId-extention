@@ -9,7 +9,7 @@ if (window.location.href === 'https://cses.fi/problemset/list/') {
     statsDiv.style.backgroundColor = '#f0f0f0';
     statsDiv.style.borderRadius = '5px';
     statsDiv.style.fontWeight = 'bold';
-    statsDiv.innerHTML = `Ümumi məsələ sayı: ${problemLinks.length}<br>Həll edilmiş məsələlər: ${solvedProblems.length} (${Math.round(solvedProblems.length/problemLinks.length*100)}%)`;
+    statsDiv.innerHTML = `Total problems: ${problemLinks.length}<br>Solved problems: ${solvedProblems.length} (${Math.round(solvedProblems.length/problemLinks.length*100)}%)`;
     
     const content = document.querySelector('.content');
     if (content) {
